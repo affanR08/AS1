@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+main article{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-basis: 70%;
+    flex-grow: 2;
+}
+main article .content-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+main article .content-flex img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+main article .content-flex p {
+  flex: 1;
+  margin: 0;
+  align-self: flex-start;
+}
+main aside{
+    margin: 20px 0;
+    padding: 20px;
+    
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-basis: 28%;
+    flex-grow: 1;
+}
+main aside .tag,
+main aside .news{
+  margin: 20px 0px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+main aside .tag ul,
+main aside .news ol{
+
+
+  margin: 5px 30px;
+}
+main aside h3{
+  margin-top: 20px;
+}
+a{
+ 
+ text-decoration: none;
+  
+  display: inline-block;
+}
+nav{
+  background-color: #2e7d32;
+  padding: 10px;
+  text-align: right;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    padding-right: 20px ;
+    margin: 0;
+    vertical-align: middle;
+}
+nav li{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover{
+    background-color: #333;
+}
+.right{
+    text-align: right;
+}
+.header {
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f8ff;
+}
+header .left .logo {
+color: #2e7d32;
+}
+header .user{
+  font-weight: bold;
+}
+header{
+  background-color: #ffffff;
+
+  justify-content: space-between;
+  padding: 0 20px;
+  padding-top: 30px;
+  height: 75px;
+  display: flex;
+
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.radio-group {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+
+}
+fieldset input,
+fieldset textarea{ 
+  display: block;
+  margin-bottom: 20px;
+}
+fieldset label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+fieldset legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+fieldset input,
+fieldset textarea, 
+fieldset label{
+  width: 40%;
+}
+fieldset input{
+    height: 30px;
+}
+fieldset textarea{
+    height: 100px;
+}
+fieldset button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    align-self: flex-end;
+    font-size: 17px;
+
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e7d32;
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+main p{
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+}
+footer:hover {
+    background-color: #1b5e20;
+    transition: background-color 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-left ul li a{
+    gap: 400px;
+    width: 400px;
+}
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    align-items: center;
+}
+@media screen and (max-width: 1500px) {
+  .nav-left ul li a {
+    gap: 20px;
+    width: auto;
+  }
+  .card {
+    flex-direction: column;
+  }
+}

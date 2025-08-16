@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabbaanii Homepage</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body bgcolor="#EEEEEE">
+    <!-- Header -->
+    <header>
+      <div class="left"><h2 class="logo">Rabbaanii Blog</h2></div>
+      <div class="right"><p class="user">Ucup</p></div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="header_nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="post.html">Posts</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main/Isi -->
+    <main>
+      
+      <article>
+        <h1>
+          Rabbaanii Islamic School Cikarang Resmi Buka Tahun Ajaran Baru 2025/2026
+        </h1>
+        <!-- tag b digunakan untuk membuat tulisan tebal sedangkan tag i digunakan untuk membuat tulisan miring -->
+        <p>
+          <!-- membuat link menggunakan relative url -->
+          <a href="about.html">
+            <b>Redaksi Rabbaanii</b>
+          </a>
+          - <i>Pendidikan</i>
+        </p>
+        <!-- membuat tulisan kecil -->
+        <small>Selasa, 12 Agustus 2025 06:30 WIB</small>
+        <img
+          src="https://rabbaanii.sch.id/wp-content/uploads/2025/01/Kunjungan-16-x-9-cm-16-x-9-cm-4.png" width="800px"
+          alt="gambar-marquez"
+        />
+
+        <p align="justify">
+          <b> Jakarta </b>- Rabbaanii Islamic School Cikarang, resmi membuka tahun ajaran baru 2025/2026. Dengan Penuh Semangat, Sekolah yang dikenal dengan kombinasi kurikulum nasional dan pendidikan berbasis nilai-nilai Islam ini menyambut ratusan siswa baru dari berbagai daerah.
+        </p>
+        <br>
+        <p>
+            Dalam Sambutannya, Kepala Sekolah menyampaikan bahwa Rabbaanii Islamic School Cikarang berkomitmen untuk memberikan pendidikan berkualitas yang tidak hanya fokus pada akademik, tetapi juga pembentukan karakter siswa. "Kami percaya bahwa pendidikan yang baik harus mencakup pengembangan intelektual, emosional, dan spiritual siswa," ujarnya. Selain pembelajaran di kelas, Sekolah juga menyediakan program tahfidz, ekstrakurikuler, hingga kegiatan sosial yang melibatkan siswa secara aktif.
+        </p>
+        <br>
+        <p>
+          <b>Baca juga :</b>
+          <!-- membuat link menggunakan absolute url -->
+
+          <a href="web.html">Program Unggulan Rabbaanii Islamic School</a>
+        </p>
+        <img src="img/Screenshot From 2025-08-15 20-55-50.png" alt="">
+              <aside class="float-end">
+        <section class="comment">
+          <form>
+            <fieldset>
+              <legend>
+                <h1>Comment</h1>
+              </legend>
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" class="form-control" placeholder="Masukkan nama Anda" required />
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="Masukkan email Anda" required />
+              <label for="comment">Komentar</label>
+              <textarea id="comment" class="form-desc" rows="4" placeholder="Tulis komentar Anda di sini..." required></textarea>
+              <label for="rating">Rating</label>
+              <div class="radio-group">
+                <input type="radio" id="rating-1" name="rating" value="1">
+                <label for="rating-1">1</label>
+                <input type="radio" id="rating-2" name="rating" value="2">
+                <label for="rating-2">2</label>
+                <input type="radio" id="rating-3" name="rating" value="3">
+                <label for="rating-3">3</label>
+                <input type="radio" id="rating-4" name="rating" value="4">
+                <label for="rating-4">4</label>
+                <input type="radio" id="rating-5" name="rating" value="5">
+                <label for="rating-5">5</label>
+              </div>
+              <button type="submit" class="btn-primary">Kirim</button>
+            </fieldset>
+          </form>
+        </section>
+      </aside>
+      </article>
+
+      <aside>
+        <section class="tag">
+       
+          <h3>Tag Populer</h3>
+          <ul>
+            <li>Rabbaanii Islamic School</li>
+            <li>Tahun Ajaran Baru</li>
+            <li>Pendidikan Islami</li>
+          </ul>
+        </section>
+
+        <section class="news">
+      
+          <h3>Berita Terpopuler</h3>
+          <ol>
+            <li>
+              Rabbaanii Islamic School Gelar Wisuda Tahfidz 2025
+            </li>
+            <li>Kegiatan Market Day Siswa Rabbaanii Islamic School</li>
+            <li>
+              Guru Dan Siswa adakan bakti sosial di desa sekitar
+            </li>
+          </ol>
+        </section>
+        <section class="news">
+            <iframe width="450" height="300" src="https://www.youtube.com/embed/M9k4m4nlCZk?si=uf3Ob_NWrMvT6cJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="news">
+            <iframe src="https://rabbaanii.sch.id/" frameborder="0" width="450" height="300"></iframe>
+        </section>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Ucup Inc. Hak cipta dilindungi undang-undang</p>
+    </footer>
+    <script>
+// Get the navigation element
+const nav = document.querySelector('nav');
+
+// Add an event listener for the scroll event
+window.addEventListener('scroll', function() {
+  // Check if the user has scrolled down more than 100 pixels
+  if (window.pageYOffset > 100) {
+    // Add a class to the navigation element to move it to the left
+    nav.classList.add('nav-left');
+  } else {
+    // Remove the class to move the navigation back to the original position
+    nav.classList.remove('nav-left');
+  }
+});
+    </script>
+  </body>
+</html>
+
