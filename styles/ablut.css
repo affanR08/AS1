@@ -22,32 +22,7 @@ main article{
     flex-basis: 70%;
     flex-grow: 2;
 }
-main aside{
-    margin: 20px 0;
-    padding: 20px;
-    
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    flex-basis: 28%;
-    flex-grow: 1;
-}
-main aside .tag,
-main aside .news{
-  margin: 20px 0px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-main aside .tag ul,
-main aside .news ol{
 
-
-  margin: 5px 30px;
-}
-main aside h3{
-  margin-top: 20px;
-}
 a{
  
  text-decoration: none;
@@ -115,64 +90,7 @@ header{
 
 
 }
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 20px 0;
-}
-fieldset {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 10px;
-  margin: 10px 0;
-}
-.radio-group {
-  display: flex;
-  flex-direction: row;
-  width: 40%;
 
-}
-fieldset input,
-fieldset textarea{ 
-  display: block;
-  margin-bottom: 20px;
-}
-fieldset label {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-fieldset legend {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-fieldset input,
-fieldset textarea, 
-fieldset label{
-  width: 40%;
-}
-fieldset input{
-    height: 30px;
-}
-fieldset textarea{
-    height: 100px;
-}
-fieldset button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #2e7d32;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 140px;
-    height: 40px;
-    align-self: flex-end;
-    font-size: 17px;
-
-}
 footer {
     text-align: center;
     padding: 20px;
