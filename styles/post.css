@@ -180,3 +180,39 @@ table tr td:hover{
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+  .responsive-table {
+    display: table;
+    width: 100%;
+    
+  }
+
+  .responsive-table tr {
+    display: table-row;
+  }
+
+  .responsive-table td, .responsive-table th {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+  @media screen and (max-width: 600px) {
+    .responsive-table {
+      display: block;
+    }
+
+    .responsive-table tr {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .responsive-table td, .responsive-table th {
+      display: block;
+      width: 100%;
+    }
+
+    /* Kolom terakhir pindah ke bawah */
+    .responsive-table td:last-child {
+      order: 1;
+    }
+  }

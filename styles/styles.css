@@ -10,6 +10,8 @@ main{
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 20px;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
 }
 main article{
     margin: 20px 0;
@@ -233,3 +235,12 @@ footer:hover {
     flex-direction: column;
   }
 }
+@media screen and (max-width:600px){
+  main {
+    width: auto;
+    margin-left: 0;
+    flex-direction: column;
+  }
+}
+
+

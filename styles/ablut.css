@@ -97,10 +97,12 @@ footer {
     background-color: #2e7d32;
     transition: background-color 0.3s ease;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    position: absolute;
     bottom: 0;
-    position: fixed;
+    
     width: 100%;
     align-items: center;
+    bottom: 0;
 }
 footer p {
     color: white;
