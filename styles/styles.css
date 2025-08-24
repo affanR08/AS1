@@ -10,7 +10,7 @@ main{
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 20px;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-wrap: break-word;
 }
 main article{
@@ -240,7 +240,20 @@ footer:hover {
     width: auto;
     margin-left: 0;
     flex-direction: column;
+    transform: scale(1);
   }
+  article, aside {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  img{
+    width: 90%;
+  }
+  iframe{
+    width: 100%;
+    height: auto;
+  }
+  
 }
 
 
